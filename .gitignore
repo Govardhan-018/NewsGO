@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# API keys and environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Optional: ignore VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output (if you build/transpile)
+dist/
+build/
+
+# Cache files
+.cache/
+.nyc_output/
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Ignore environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
