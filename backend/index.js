@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const apiKey = process.env.NEWSDATA_API_KEY || "pub_d0b7f030a5f041d386e5acc10ada68c5";
+const apiKey = process.env.NEWSDATA_API_KEY || "pub_551cf39da67c4a098867b9001bc2d0aa";
 
 // News API endpoint
 app.get("/news", async (req, res) => {
